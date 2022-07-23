@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.header__navbar ul {
+
+    padding: 4rem;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+
+.header__navbar li {
+    display: inline-block;
+}
+
+
+.header {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+
+
+.menu {
+
+    background-color: lightblue;
+    height: 75px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 0 10px black;
+
+}
+
+.foto-forum {
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+
+.foto_despegue {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.header__navbar a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 13px 26px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+
+
+
+
+.header__navbar img {
+    width: 220px;
+
+    position: absolute;
+
+}
+
+
+nav {
+    height: 6rem;
+}
+
+
+
+.conjunto_inicio {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.contenido__titulo {
+    color: blue;
+    text-align: center;
+    background-color: none;
+    margin-top: 15%;
+    margin-bottom: 5%;
+
+
+}
+
+.contenido__boton__div {
+    height: 50px;
+    padding-top: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin: auto;
+    width: 200px;
+    background-color:
+}
+
+.contenido__boton {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border: 1px solid blue;
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin: auto;
+
+
+
+}
+
+
+.contenido__boton:hover {
+    background-color: rgb(3, 3, 110);
+}
+
+
+body {
+    background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(52, 52, 167);
+
+
+}
+
+
+
+.color_link {
+    color: white;
+    text-decoration: none;
+}
+
+svg {
+    max-width: 20px;
+
+}
+
+
+.offcanvas-body {
+    background-color: black;
+}
+
+footer {
+    background-color: white;
+
+}
+
+.titulo__footer {
+    font-weight: bold;
+    padding-left: 20px;
+    color: blue;
+
+
+
+}
+
+.texto__footer {
+    padding-left: 20px;
+    color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+.datos {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.viaje__h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 15%;
+
+}
+
+.viaje__foto {
+    width: 600px;
+    margin-left: 650px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nosotros__h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 15%;
+}
+
+.nosotros__foto {
+    width: 600px;
+    margin-left: 650px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.nosotros__texto {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacto__h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flota {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.titulo__flota {
+    color: blue;
+    text-align: center;
+    margin-top: 35%;
+   
+}
+
+#foto_1 {
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+#foto_2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#foto_3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#foto_4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+#nombre {
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+
+}
+
+#apellido {
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+
+}
+
+
+#edad {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+
+
+}
+
+#correo {
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+
+}
+
+#clave {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+
+
+}
+
+
+form {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 40px 0;
+
+
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+
+
+}
+
+
+.contenedor-destinos {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.banner {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+.card {
+
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.card .textos {
+    height: 100%;
+    text-align: center;
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+
+@media (max-width:576px) {
+
+
+
+.header__navbar img{
+    width:170px;
+}
+
+ .foto_despegue{
+    width: 50%;
+ }
+
+
+
+.titulo__footer{
+    font-size: small;
+}
+
+.texto__footer{
+    font-size: smaller;
+}
+
+    #foto_1 {
+
+        width: 30%;
+
+    }
+
+    #foto_2 {
+        width: 30%;
+    }
+
+    #foto_3 {
+        width: 30%;
+    }
+
+    #foto_4 {
+        width: 30%;
+    }
+}
