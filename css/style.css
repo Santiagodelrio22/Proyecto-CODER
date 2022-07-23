@@ -46,21 +46,17 @@
 }
 
 .foto-forum{
-    width: 60%;
+    width: 100%;
     margin-top:15%;
     margin-bottom: 15%;
-    margin-left: 20%;
-    
-
 }
 
 
 .foto_despegue{
-    width:100%;
+    width:80%;
     margin-top:15%;
     margin-bottom: 15%;
-    margin-left: center;
-    margin-right: center;
+    
 }
 
 
