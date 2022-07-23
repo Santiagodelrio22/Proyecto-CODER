@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,26 +17,28 @@
 }
 
 
-.header__navbar li{
+.header__navbar li {
     display: inline-block;
 }
 
 
-.header{
+.header {
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
- 
+
+
 }
 
 
-.menu{
-  
+
+
+.menu {
+
     background-color: lightblue;
     height: 75px;
-    width:100px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,33 +47,30 @@
 
 }
 
-.foto-forum{
+.foto-forum {
     width: 100%;
-    margin-top:15%;
     margin-bottom: 15%;
 }
 
 
-.foto_despegue{
-    width:80%;
-    margin-top:15%;
-    margin-bottom: 15%;
-    
+.foto_despegue {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
 }
 
 
 
 
-.header__navbar a{
+.header__navbar a {
     color: blue;
     font-weight: bold;
     text-decoration: none;
-    display:block;
-    padding:13px 26px;
-  
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    
+    display: block;
+    padding: 13px 26px;
 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
@@ -82,38 +81,49 @@
 
 .header__navbar img {
     width: 220px;
-   
+
     position: absolute;
-   
+
 }
 
 
-nav{
+nav {
     height: 6rem;
 }
 
 
-.contenido__titulo{
+
+.conjunto_inicio {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.contenido__titulo {
     color: blue;
     text-align: center;
     background-color: none;
     margin-top: 15%;
     margin-bottom: 5%;
-    
-   
+
+
 }
 
-.contenido__boton__div{
+.contenido__boton__div {
     height: 50px;
     padding-top: 15px;
     margin-bottom: 5%;
     margin-top: 5%;
     margin: auto;
     width: 200px;
-    background-color: 
+    background-color:
 }
 
-.contenido__boton{
+.contenido__boton {
     color: white;
     text-align: center;
     background-color: blue;
@@ -125,62 +135,62 @@ nav{
     margin-top: 5%;
     margin: auto;
 
-    
+
 
 }
 
 
-.contenido__boton:hover{
+.contenido__boton:hover {
     background-color: rgb(3, 3, 110);
 }
 
 
-body{
-    background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg) ;
+body {
+    background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(52, 52, 167);
-    
+
 
 }
 
 
 
-.color_link{
-    color:white;
+.color_link {
+    color: white;
     text-decoration: none;
 }
 
-svg{
+svg {
     max-width: 20px;
-    
+
 }
 
 
-.offcanvas-body{
+.offcanvas-body {
     background-color: black;
 }
 
 footer {
-    background-color:white;
+    background-color: white;
 
 }
 
-.titulo__footer{
+.titulo__footer {
     font-weight: bold;
-   padding-left: 20px;
-   color: blue;
-   
-  
-
-}
-
-.texto__footer{
     padding-left: 20px;
     color: blue;
-   
+
+
+
+}
+
+.texto__footer {
+    padding-left: 20px;
+    color: blue;
+
 }
 
 
@@ -191,7 +201,7 @@ footer {
 
 
 
-.datos{
+.datos {
     font-weight: bold;
     text-align: center;
 }
@@ -205,14 +215,14 @@ footer {
 
 
 
-.viaje__h2{
+.viaje__h2 {
     text-align: center;
-    color:blue;
+    color: blue;
     margin-top: 15%;
 
 }
 
-.viaje__foto{
+.viaje__foto {
     width: 600px;
     margin-left: 650px;
     margin-top: 5%;
@@ -233,23 +243,23 @@ footer {
 
 
 
-.nosotros__h2{
+.nosotros__h2 {
     text-align: center;
     color: blue;
     margin-top: 15%;
 }
 
-.nosotros__foto{
-    width:600px;
+.nosotros__foto {
+    width: 600px;
     margin-left: 650px;
     margin-bottom: 5%;
     margin-top: 5%;
 }
 
-.nosotros__texto{
+.nosotros__texto {
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:blue;
+    color: blue;
     text-align: center;
     margin-bottom: 5%;
     margin-left: 10%;
@@ -266,59 +276,60 @@ footer {
 
 
 
-.contacto__h2{
-text-align: center;
-color:blue;
-margin-top: 15%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.flota{
-   text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-   
-}
-
-.titulo__flota{
-    color: blue;
+.contacto__h2 {
     text-align: center;
+    color: blue;
     margin-top: 15%;
 }
 
-#foto_1{
 
-margin-top: 3%;
-margin-bottom: 3%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flota {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
 }
 
-#foto_2{
+.titulo__flota {
+    color: blue;
+    text-align: center;
+    margin-top: 35%;
+   
+}
+
+#foto_1 {
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+#foto_2 {
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
-#foto_3{
+#foto_3 {
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
-#foto_4{
+#foto_4 {
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -328,54 +339,54 @@ margin-bottom: 3%;
 
 
 
-#nombre{
+#nombre {
 
     margin-top: 1%;
     margin-bottom: 1%;
-    display:block;
+    display: block;
 
 }
 
-#apellido{
+#apellido {
 
     margin-top: 1%;
     margin-bottom: 1%;
-    display:block;
+    display: block;
 
 }
 
 
-#edad{
-    margin-top:1% ;
+#edad {
+    margin-top: 1%;
     margin-bottom: 1%;
-    display:block;
+    display: block;
 
 
 }
 
-#correo{
+#correo {
 
     margin-top: 1%;
     margin-bottom: 1%;
-    display:block;
+    display: block;
 
 }
 
-#clave{
+#clave {
     margin-top: 1%;
     margin-bottom: 1%;
-    display:block;
+    display: block;
 
 
 }
 
 
-form{
+form {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
-margin-top: 5%;
-margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -384,61 +395,62 @@ margin-bottom: 5%;
 
 
 
-.contenedor{
+.contenedor {
     width: 90%;
     max-width: 1280px;
     margin: auto;
     padding: 40px 0;
-    
-   
 
-display: grid;
-grid-template-columns: 3fr 1fr;
-gap: 20px;
+
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
 
 
 }
 
 
-.contenedor-destinos{
-   
+.contenedor-destinos {
+
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
 
-.banner{
-background-color: red;
-text-align: center;
-padding: 20px;
-background-size: cover;
-background-position: center;
-border-radius: 10px;
+.banner {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 
 
 }
 
-.card{
+.card {
 
-border-radius: 10px;
-min-height: 200px;
-font-weight: bold;
-padding: 20px;
-position: relative;
-overflow: hidden;
-background-size: cover;
-background-position: center;
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 
 
 }
-.card .textos{
+
+.card .textos {
     height: 100%;
     text-align: center;
     background-color: lightskyblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: space-between;
 
 
@@ -447,268 +459,44 @@ background-position: center;
 
 
 
-@media screen and (max-width: 769px) {
-	
-    .foto-forum{
-        width: 40%;
-        margin-top:10%;
-        margin-bottom:10%;
-       margin-left: 15%;
-       
-        
-    }
+
+@media (max-width:576px) {
 
 
 
-
-
-.foto_despegue{
-    width: 100%;
-    margin-top:10%;
-    margin-bottom:10%;
-    margin-left: center;
-    margin-right: center;
+.header__navbar img{
+    width:170px;
 }
 
+ .foto_despegue{
+    width: 50%;
+ }
 
-	.header__navbar img {
-        width: 220px;
-       
-        position: absolute;
-       
-    }
-    
-    .contenido__titulo{
-        color: blue;
-        text-align: center;
-        background-color: none;
-        margin-top: 15%;
-        margin-bottom: 5%;
-        
-       
-    }
-    
-    .contenido__boton__div{
-        height: 40px;
-        padding-top: 10px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin: auto;
-        width: 180px;
-    }
-    
-    .contenido__boton{
-        color: white;
-        text-align: center;
-        background-color: blue;
-        border: 1px solid blue;
-        width: 180px;
-        height: 40px;
-        padding-top: 10px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin: auto;
-    
-        
-    
-    }
 
-    .titulo__footer{
-        font-weight: bold;
-       padding-left: 20px;
-       color: blue;
-       
-      
-    
-    }
-    
-    .texto__footer{
-        padding-left: 20px;
-        color: blue;
-       
-    }
 
+.titulo__footer{
+    font-size: small;
 }
 
-
-
-
-
-
-
-
-@media screen and (min-width: 768) and (max-width: 1023px) {
-
-    .foto-forum{
-        width: 40%;
-        margin-top:10%;
-        margin-bottom:10%;
-       margin-left: 15%;
-       
-        
-    }
-
-
-
-
-
-.foto_despegue{
-    width: 100%;
-    margin-top:10%;
-    margin-bottom:10%;
-    margin-left: center;
-    margin-right: center;
+.texto__footer{
+    font-size: smaller;
 }
 
+    #foto_1 {
 
-	.header__navbar img {
-        width: 220px;
-       
-        position: absolute;
-       
-    }
-    
-    .contenido__titulo{
-        color: blue;
-        text-align: center;
-        background-color: none;
-        margin-top: 15%;
-        margin-bottom: 5%;
-        
-       
-    }
-    
-    .contenido__boton__div{
-        height: 40px;
-        padding-top: 10px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin: auto;
-        width: 180px;
-    }
-    
-    .contenido__boton{
-        color: white;
-        text-align: center;
-        background-color: blue;
-        border: 1px solid blue;
-        width: 180px;
-        height: 40px;
-        padding-top: 10px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin: auto;
-    
-        
-    
+        width: 30%;
+
     }
 
-    .titulo__footer{
-        font-weight: bold;
-       padding-left: 20px;
-       color: blue;
-       
-      
-    
-    }
-    
-    .texto__footer{
-        padding-left: 20px;
-        color: blue;
-       
+    #foto_2 {
+        width: 30%;
     }
 
+    #foto_3 {
+        width: 30%;
+    }
+
+    #foto_4 {
+        width: 30%;
+    }
 }
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1325px) {
-
-    
-    .foto-forum{
-        width: 60%;
-        margin-top:15%;
-        margin-bottom:15%;
-       margin-left: 20%;
-       
-        
-    }
-
-
-
-
-
-.foto_despegue{
-    width: 100%;
-    margin-top:15%;
-    margin-bottom:15%;
-    margin-left: center;
-    margin-right: center;
-}
-
-
-	.header__navbar img {
-        width: 220px;
-       
-        position: absolute;
-       
-    }
-    
-    .contenido__titulo{
-        color: blue;
-        text-align: center;
-        background-color: none;
-        margin-top: 15%;
-        margin-bottom: 5%;
-        
-       
-    }
-    
-    .contenido__boton__div{
-        height: 50px;
-        padding-top: 15px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin: auto;
-        width: 200px;
-    }
-    
-    .contenido__boton{
-        color: white;
-        text-align: center;
-        background-color: blue;
-        border: 1px solid blue;
-        width: 200px;
-        height: 50px;
-        padding-top: 15px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin: auto;
-    
-        
-    
-    }
-
-    .titulo__footer{
-        font-weight: bold;
-       padding-left: 20px;
-       color: blue;
-       
-      
-    
-    }
-    
-    .texto__footer{
-        padding-left: 20px;
-        color: blue;
-       
-    }
-
-}
-
-
