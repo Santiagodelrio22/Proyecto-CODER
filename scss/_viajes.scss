@@ -1,0 +1,167 @@
+.main-viaje {
+
+    width: 100%;
+    overflow: hidden;
+
+    .viaje {
+        width: inherit;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "titulo titulo"
+            "tabla promo";
+        justify-content: center;
+        grid-gap: 1rem;
+        text-align: center;
+
+
+        &__titulo {
+
+            grid-area: titulo;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+
+        }
+
+        &__h2 {
+            text-align: center;
+            color: $colorText;
+            margin: 0%;
+
+        }
+
+        &__foto {
+            width: 600px;
+            margin: 0%;
+
+
+        }
+
+
+
+
+        &__descuento {
+            grid-area: promo;
+
+            img {
+                width: 450px;
+            }
+
+        }
+
+
+        .contenedor__destinos {
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            grid-area: tabla;
+            width: 100%;
+            align-content: center;
+            margin-left: 10%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .contenedor__cabecera {
+
+                margin: 2rem auto;
+
+                img {
+                    width: 400px;
+
+                }
+            }
+
+
+        }
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .main-viaje {
+
+        .viaje {
+
+
+
+            grid-template-areas: "titulo titulo"
+                "tabla tabla"
+                "promo promo";
+
+            grid-template-columns: 50% 50%;
+
+            .contenedor__destinos {
+
+                margin: 0%;
+
+            }
+
+        }
+
+    }
+
+
+}
+
+@media (max-width: 740px) {
+
+    .main-viaje {
+
+
+        .viaje {
+
+            .contenedor__destinos {
+                .contenedor__cabecera {
+
+                    
+
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+
+
+            &__descuento {
+
+
+                img {
+                    width: 300px;
+                }
+
+            }
+
+            &__foto {
+                width: 400px;
+                margin: 0%;
+
+            }
+
+        }
+
+    }
+
+}

@@ -1,11 +1,11 @@
 @import "variables";
+@import "_viajes.scss";
+@import "layout/_nosotros.scss";
+@import "layout/_flota.scss";
+@import "layout/_contacto.scss";
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
 
     body {
@@ -81,7 +81,7 @@
         }
 
         .main {
-
+       
             .contenido {
 
                 .conjunto {
@@ -233,48 +233,22 @@
 
     
 
-   
+   //de la pagina contacto
 
     .datos {
         font-weight: bold;
         text-align: center;
     }
 
-    .viaje__h2 {
-        text-align: center;
-        color: $colorText;
-        margin-top: 15%;
-    }
 
-    .viaje__foto {
-        width: 600px;
-        margin-left: 650px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
 
-    .nosotros__h2 {
-        text-align: center;
-        color: $colorText;
-        margin-top: 15%;
-    }
 
-    .nosotros__foto {
-        width: 600px;
-        margin-left: 650px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
+   
 
-    .nosotros__texto {
-        font-size: large;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: $colorText;
-        text-align: center;
-        margin-bottom: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+   
+
+
+
 
     .contacto__h2 {
         text-align: center;
@@ -357,51 +331,11 @@
         margin-bottom: 5%;
     }
 
-    .contenedor {
-        width: 90%;
-        max-width: 1280px;
-        margin: auto;
-        padding: 40px 0;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        gap: 20px;
-    }
+   
 
-    .contenedor-destinos {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
+    
 
-    .banner {
-        background-color: red;
-        text-align: center;
-        padding: 20px;
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-    }
-
-    .card {
-        border-radius: 10px;
-        min-height: 200px;
-        font-weight: bold;
-        padding: 20px;
-        position: relative;
-        overflow: hidden;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .card .textos {
-        height: 100%;
-        text-align: center;
-        background-color: lightskyblue;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+   
 
     @media (max-width: 576px) {
         .header__navbar img {
@@ -424,4 +358,3 @@
         width: 50%;
        }
     }
-}
