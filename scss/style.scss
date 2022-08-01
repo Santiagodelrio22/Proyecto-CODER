@@ -1,8 +1,9 @@
 @import "variables";
 @import "_viajes.scss";
-@import "layout/_nosotros.scss";
-@import "layout/_flota.scss";
-@import "layout/_contacto.scss";
+@import "_nosotros.scss";
+@import "_normalize.scss";
+@import "_contacto.scss";
+
 
 
 
@@ -235,26 +236,17 @@
 
    //de la pagina contacto
 
-    .datos {
-        font-weight: bold;
-        text-align: center;
-    }
+    
 
 
 
-
-   
-
-   
-
-
+   .datos {
+    font-weight: bold;
+    text-align: center;
+}
 
 
-    .contacto__h2 {
-        text-align: center;
-        color: $colorText;
-        margin-top: 15%;
-    }
+
 
     .flota {
         text-align: center;
