@@ -19,14 +19,15 @@
     .main-viaje .viaje__h2 {
       text-align: center;
       color: blue;
-      margin: 0%; }
+      margin-bottom: 5%; }
     .main-viaje .viaje__foto {
       width: 600px;
       margin: 0%; }
     .main-viaje .viaje__descuento {
       grid-area: promo; }
       .main-viaje .viaje__descuento img {
-        width: 450px; }
+        width: 450px;
+        margin-bottom: 5%; }
     .main-viaje .viaje .contenedor__destinos {
       width: inherit;
       display: flex;
@@ -49,11 +50,113 @@
       margin: 0%; } }
 
 @media (max-width: 740px) {
+  .main-viaje .viaje .contenedor__destinos .contenedor__cabecera img {
+    width: 250px; }
   .main-viaje .viaje__descuento img {
-    width: 300px; }
+    width: 250px; }
   .main-viaje .viaje__foto {
-    width: 400px;
+    width: 300px;
     margin: 0%; } }
+
+.nosotros__body .nosotros__info .nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%; }
+  .nosotros__body .nosotros__info .nosotros .nosotros__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    width: 100%; }
+    .nosotros__body .nosotros__info .nosotros .nosotros__div .nosotros__h2 {
+      text-align: center;
+      color: blue;
+      margin-top: 15%; }
+    .nosotros__body .nosotros__info .nosotros .nosotros__div .nosotros__foto {
+      width: 600px;
+      margin-bottom: 5%;
+      margin-top: 5%; }
+  .nosotros__body .nosotros__info .nosotros .nosotros__texto {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5%; }
+
+@media (max-width: 576px) {
+  .nosotros__info {
+    margin-top: 25%; }
+    .nosotros__info .nosotros .nosotros__div {
+      margin-top: 25%; }
+      .nosotros__info .nosotros .nosotros__div .nosotros__h2 {
+        margin-top: 20%;
+        margin-bottom: 10%; }
+      .nosotros__info .nosotros .nosotros__div .nosotros__foto {
+        width: 250px !important; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * .body main {
+    overflow: hidden; }
+  * .body footer {
+    overflow: hidden; }
+
+.contacto-main {
+  width: 100%;
+  overflow: hidden; }
+  .contacto-main .contacto {
+    margin-top: 10%; }
+    .contacto-main .contacto .contacto__h2 {
+      text-align: center;
+      color: blue;
+      margin-top: 15%; }
+    .contacto-main .contacto .contacto__form {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5%;
+      width: 60%;
+      border: 4px solid white;
+      background-color: rgba(255, 255, 255, 0.726);
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+      border-radius: 10px; }
+
+@media (max-width: 576px) {
+  .contacto-main {
+    margin-top: 25%; } }
+
+.flota__main .flota {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .flota__main .flota .titulo__flota {
+    color: blue;
+    text-align: center;
+    margin-top: 35%; }
+  .flota__main .flota .nombre__avion {
+    margin-top: 3%; }
+  .flota__main .flota img #foto_1 {
+    margin-top: 3%;
+    margin-bottom: 3%; }
+  .flota__main .flota img #foto_2 {
+    margin-top: 3%;
+    margin-bottom: 3%; }
+  .flota__main .flota img #foto_3 {
+    margin-top: 3%;
+    margin-bottom: 3%; }
+  .flota__main .flota img #foto_4 {
+    margin-top: 3%;
+    margin-bottom: 3%; }
+  .flota__main .flota .alert-primary {
+    margin-top: 5%; }
+    .flota__main .flota .alert-primary svg {
+      max-width: 20px; }
 
 body {
   background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
@@ -135,102 +238,11 @@ body {
       padding-left: 20px;
       color: blue; }
 
-.datos {
-  font-weight: bold;
-  text-align: center; }
-
-.nosotros__h2 {
-  text-align: center;
-  color: blue;
-  margin-top: 15%; }
-
-.nosotros__foto {
-  width: 600px;
-  margin-left: 650px;
-  margin-bottom: 5%;
-  margin-top: 5%; }
-
-.nosotros__texto {
-  font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: blue;
-  text-align: center;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%; }
-
-.contacto__h2 {
-  text-align: center;
-  color: blue;
-  margin-top: 15%; }
-
-.flota {
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
-
-.titulo__flota {
-  color: blue;
-  text-align: center;
-  margin-top: 35%; }
-
-#foto_1 {
-  margin-top: 3%;
-  margin-bottom: 3%; }
-
-#foto_2 {
-  margin-top: 3%;
-  margin-bottom: 3%; }
-
-#foto_3 {
-  margin-top: 3%;
-  margin-bottom: 3%; }
-
-#foto_4 {
-  margin-top: 3%;
-  margin-bottom: 3%; }
-
-svg {
-  max-width: 20px; }
-
-#nombre {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  display: block; }
-
-#apellido {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  display: block; }
-
-#edad {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  display: block; }
-
-#correo {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  display: block; }
-
-#clave {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  display: block; }
-
-form {
-  width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
-
 @media (max-width: 576px) {
   .header__navbar img {
     width: 170px; }
   .foto_despegue {
-    width: 50%; }
+    width: 80%; }
   .titulo__footer {
     font-size: small; }
   .texto__footer {

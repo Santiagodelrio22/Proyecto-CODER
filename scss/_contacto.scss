@@ -1,42 +1,53 @@
-.contacto-main{
+.contacto-main {
 
-width: 100%;
-overflow: hidden;
+    width: 100%;
+    overflow: hidden;
 
 
-    .contacto{
-    
+    .contacto {
 
-            .contacto__h2 {
-                text-align: center;
-                color: $colorText;
-                margin-top: 40%;
-        
-            }
+        margin-top: 10%;
 
-        
-    
-       
-    
-    
+        .contacto__h2 {
+            text-align: center;
+            color: $colorText;
+            margin-top: 15%;
+
+        }
+
+
         
 
 
+        .contacto__form {
+            @include form;
+        }
 
-    
+
+
+
+
+
+
+
     }
-    
 
-    
-    
-    
-    
+
+
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+
+
+    .contacto-main {
+
+        margin-top: 25%;
     }
-       
-    
-       
-    
-    
-    
-    
-    
+
+}

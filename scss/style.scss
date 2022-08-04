@@ -1,9 +1,11 @@
 @import "variables";
+@import "_operator.scss";
 @import "_viajes.scss";
 @import "_nosotros.scss";
 @import "_normalize.scss";
 @import "_contacto.scss";
 @import "_flota.scss";
+
 
 
 
@@ -195,7 +197,8 @@
         }
 
         .foto_despegue {
-            width: 50%;
+            width: 80%;
+
         }
 
         .titulo__footer {
