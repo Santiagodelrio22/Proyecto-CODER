@@ -8,7 +8,7 @@
 
         margin-top: 10%;
 
-        .contacto__h2 {
+        &__h1 {
             text-align: center;
             color: $colorText;
             margin-top: 15%;
@@ -19,7 +19,7 @@
         
 
 
-        .contacto__form {
+        &__form {
             @include form;
         }
 
