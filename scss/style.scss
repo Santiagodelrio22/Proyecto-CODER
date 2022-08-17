@@ -170,17 +170,67 @@
       .footer{
 
         background-color: white;
+        display: grid;
+        grid-template-areas: "logo hashtag"
+        "socialnetwork hashtag"
+        "derechos derechos";
 
-        &__titulo {
-            font-weight: bold;
-            padding-left: 20px;
-            color: $colorText;
+        &__logo{
+
+            grid-area: logo;
+           text-align: center;
+           margin-top: 5%;
+          img{
+            width: 220px;
+          } 
         }
 
-        &__texto{
-            padding-left: 20px;
-            color: $colorText;
+        &__socialnetwork{
+            grid-area: socialnetwork;
+            display: flex;
+            justify-content: center;
+            a{
+                margin: 2%;
+                i{
+                    font-size: 2rem;
+                    color: $colorText;
+                    
+
+                }
+            }
         }
+
+        &__hashtag{
+            grid-area: hashtag;
+            margin-top: 2%;
+
+            h2{
+                font-weight: bold;
+                padding-left: 20px;
+                color: $colorText;
+            }
+    
+            p{
+                padding-left: 20px;
+                color: $colorText;
+            }
+        }
+
+    
+
+        &__derechos{
+            grid-area: derechos;
+           margin-left: 2rem;
+
+           p{
+            color: $colorText;
+            
+           }
+
+
+        }
+
+       
 
 
 
@@ -204,16 +254,24 @@
             width: 80%;
 
         }
+  
+    }
 
-        .titulo__footer {
-            font-size: small;
+    @media (max-width: 815px){
+        body{
+
+        
+        .footer{
+            grid-template-areas: "logo logo"
+            "socialnetwork socialnetwork"
+            "hashtag hashtag"
+            "derechos derechos"
+            ;
+            text-align: center;
+
+           
+            
+            
         }
-
-        .texto__footer {
-            font-size: smaller;
-        }
-
-       img{
-        width: 50%;
-       }
+    }
     }

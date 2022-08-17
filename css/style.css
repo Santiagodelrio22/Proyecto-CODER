@@ -86,7 +86,7 @@
     width: 70%;
     margin-bottom: 5%; }
 
-@media (max-width: 576px) {
+@media (max-width: 630px) {
   .nosotros__info {
     margin-top: 25%; }
     .nosotros__info .nosotros .nosotros__div {
@@ -132,31 +132,37 @@
 
 .flota__main .flota {
   text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
   .flota__main .flota .titulo__flota {
     color: blue;
     text-align: center;
-    margin-top: 35%; }
-  .flota__main .flota .nombre__avion {
-    margin-top: 3%; }
-  .flota__main .flota img #foto_1 {
-    margin-top: 3%;
-    margin-bottom: 3%; }
-  .flota__main .flota img #foto_2 {
-    margin-top: 3%;
-    margin-bottom: 3%; }
-  .flota__main .flota img #foto_3 {
-    margin-top: 3%;
-    margin-bottom: 3%; }
-  .flota__main .flota img #foto_4 {
-    margin-top: 3%;
-    margin-bottom: 3%; }
+    margin-top: 15%;
+    margin-bottom: 5%; }
+  .flota__main .flota .flota__container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.726);
+    border-radius: 10px;
+    padding: 2rem 0;
+    gap: 2rem; }
+    .flota__main .flota .flota__container p {
+      margin: 2rem 0; }
   .flota__main .flota .alert-primary {
     margin-top: 5%; }
     .flota__main .flota .alert-primary svg {
       max-width: 20px; }
+
+@media (max-width: 780px) {
+  .flota__main .flota .titulo__flota {
+    margin-top: 32%; }
+  .flota__main .flota .flota__container img {
+    width: 100%; } }
 
 body {
   background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
@@ -229,23 +235,47 @@ body {
       display: flex;
       justify-content: center; }
   body .footer {
-    background-color: white; }
-    body .footer__titulo {
-      font-weight: bold;
-      padding-left: 20px;
-      color: blue; }
-    body .footer__texto {
-      padding-left: 20px;
-      color: blue; }
+    background-color: white;
+    display: grid;
+    grid-template-areas: "logo hashtag" "socialnetwork hashtag" "derechos derechos"; }
+    body .footer__logo {
+      grid-area: logo;
+      text-align: center;
+      margin-top: 5%; }
+      body .footer__logo img {
+        width: 220px; }
+    body .footer__socialnetwork {
+      grid-area: socialnetwork;
+      display: flex;
+      justify-content: center; }
+      body .footer__socialnetwork a {
+        margin: 2%; }
+        body .footer__socialnetwork a i {
+          font-size: 2rem;
+          color: blue; }
+    body .footer__hashtag {
+      grid-area: hashtag;
+      margin-top: 2%; }
+      body .footer__hashtag h2 {
+        font-weight: bold;
+        padding-left: 20px;
+        color: blue; }
+      body .footer__hashtag p {
+        padding-left: 20px;
+        color: blue; }
+    body .footer__derechos {
+      grid-area: derechos;
+      margin-left: 2rem; }
+      body .footer__derechos p {
+        color: blue; }
 
 @media (max-width: 576px) {
   .header__navbar img {
     width: 170px; }
   .foto_despegue {
-    width: 80%; }
-  .titulo__footer {
-    font-size: small; }
-  .texto__footer {
-    font-size: smaller; }
-  img {
-    width: 50%; } }
+    width: 80%; } }
+
+@media (max-width: 815px) {
+  body .footer {
+    grid-template-areas: "logo logo" "socialnetwork socialnetwork" "hashtag hashtag" "derechos derechos";
+    text-align: center; } }

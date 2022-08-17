@@ -3,62 +3,57 @@
 
     .flota {
         text-align: center;
-        margin: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+
 
         .titulo__flota {
             color: $colorText;
             text-align: center;
-            margin-top: 35%;
+            margin-top: 15%;
+            margin-bottom: 5%;
         }
 
-        .nombre__avion{
-            margin-top: map-get($flota, m-top );
-        }
+        .flota__container {
+            display: flex;
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgba(255, 255, 255, 0.726);
+            border-radius: 10px;
+            padding: 2rem 0;
+            gap: 2rem;
 
-        img {
-            #foto_1 {
-                margin-top: map-get($flota, m-top) ;
-                margin-bottom: map-get($flota, m-bottom);
+
+
+            p {
+                margin: 2rem 0 ; 
             }
+
+
+
+
+
+           
         }
 
-        img {
-            #foto_2 {
-                margin-top: map-get( $flota, m-top);
-                margin-bottom: map-get( $flota, m-bottom);
+
+        .alert-primary {
+
+            margin-top: 5%;
+
+            svg {
+                max-width: 20px;
+
             }
+
+
+
         }
-
-        img {
-            #foto_3 {
-                margin-top: map-get( $flota, m-top);
-                margin-bottom: map-get($flota, m-bottom );
-            }
-        }
-
-        img {
-            #foto_4 {
-                margin-top: map-get($flota, m-top);
-                margin-bottom: map-get( $flota, m-bottom);
-            }
-        }
-
-
-      .alert-primary{
-  
-        margin-top: 5%;
-
-        svg {
-            max-width: 20px;
-            
-        }
-
-
-
-      }
 
 
 
@@ -79,3 +74,28 @@
 }
 
 
+@media (max-width:780px) {
+
+    .flota__main {
+        .flota {
+
+            .titulo__flota {
+
+                margin-top: 32%;
+            }
+
+            .flota__container {
+                img {
+                    width: 100%;
+                }
+            }
+
+
+
+        }
+    }
+
+
+
+
+}
