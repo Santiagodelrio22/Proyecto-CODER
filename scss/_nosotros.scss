@@ -23,6 +23,7 @@
                     text-align: center;
                     color: $colorText;
                     margin-top: 15%;
+                    font-family: $font-title;
                 }
 
                 .nosotros__foto {
@@ -44,7 +45,11 @@
                 text-align: center;
                 width: 70%;
                 margin-bottom: 5%;
-                
+                background-color:$background-color-cuadrados;
+                border-radius: 10px;
+                padding: 2rem 1rem;
+
+
 
 
             }
@@ -82,39 +87,47 @@
 
 
         .nosotros {
-           
-        
+
+
 
             .nosotros__div {
 
-               
+
 
                 margin-top: 25%;
-              
+                
+                
+
 
 
                 .nosotros__h1 {
-                    
+
                     margin-top: 20%;
                     margin-bottom: 10%;
                 }
 
                 .nosotros__foto {
                     width: 250px !important;
-                    
 
 
-                    
+
+
 
                 }
 
             }
 
-                
 
 
-           
 
         }
+
+
+.nosotros__texto{
+
+    font-size: x-small;
+}
+
+
     }
 }

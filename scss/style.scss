@@ -13,7 +13,7 @@
 
 
     body {
-        background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
+        background-image:url(https://www.necochea.gov.ar/wp-content/uploads/2017/09/FOTO-clima-7.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
@@ -100,6 +100,7 @@
                         background-color: none;
                         margin-top: 15%;
                         margin-bottom: 5%;
+                        font-family:$font-title;
                     }
 
 
@@ -145,7 +146,8 @@
 
                 .foto-forum {
                     width: 100%;
-                    margin-bottom: 15%;
+                    margin-bottom: 10%;
+                    
 
                     .foto_despegue {
                         width: 50%;

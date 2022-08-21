@@ -15,6 +15,7 @@
             text-align: center;
             margin-top: 15%;
             margin-bottom: 5%;
+            font-family: $font-title;
         }
 
         .flota__container {
@@ -23,15 +24,17 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            background-color: rgba(255, 255, 255, 0.726);
+            background-color: $background-color-cuadrados;
             border-radius: 10px;
             padding: 2rem 0;
             gap: 2rem;
+            
 
 
 
             p {
                 margin: 2rem 0 ; 
+                
             }
 
 

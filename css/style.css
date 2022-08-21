@@ -15,7 +15,8 @@
       flex-direction: column;
       justify-content: center;
       height: 100vh;
-      align-items: center; }
+      align-items: center;
+      font-family: Georgia, "Times New Roman", Times, serif; }
     .main-viaje .viaje__h1 {
       text-align: center;
       color: blue;
@@ -73,7 +74,8 @@
     .nosotros__body .nosotros__info .nosotros .nosotros__div .nosotros__h1 {
       text-align: center;
       color: blue;
-      margin-top: 15%; }
+      margin-top: 15%;
+      font-family: Georgia, "Times New Roman", Times, serif; }
     .nosotros__body .nosotros__info .nosotros .nosotros__div .nosotros__foto {
       width: 600px;
       margin-bottom: 5%;
@@ -84,7 +86,10 @@
     color: blue;
     text-align: center;
     width: 70%;
-    margin-bottom: 5%; }
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 10px;
+    padding: 2rem 1rem; }
 
 @media (max-width: 630px) {
   .nosotros__info {
@@ -95,7 +100,9 @@
         margin-top: 20%;
         margin-bottom: 10%; }
       .nosotros__info .nosotros .nosotros__div .nosotros__foto {
-        width: 250px !important; } }
+        width: 250px !important; }
+    .nosotros__info .nosotros__texto {
+      font-size: x-small; } }
 
 * {
   margin: 0;
@@ -114,14 +121,15 @@
     .contacto-main .contacto__h1 {
       text-align: center;
       color: blue;
-      margin-top: 15%; }
+      margin-top: 15%;
+      font-family: Georgia, "Times New Roman", Times, serif; }
     .contacto-main .contacto__form {
       margin-left: auto;
       margin-right: auto;
       padding: 5%;
       width: 60%;
-      border: 4px solid white;
-      background-color: rgba(255, 255, 255, 0.726);
+      border: 4px solid rgba(255, 255, 255, 0.521);
+      background-color: rgba(255, 255, 255, 0.356);
       margin-top: 4rem;
       margin-bottom: 2rem;
       border-radius: 10px; }
@@ -140,14 +148,15 @@
     color: blue;
     text-align: center;
     margin-top: 15%;
-    margin-bottom: 5%; }
+    margin-bottom: 5%;
+    font-family: Georgia, "Times New Roman", Times, serif; }
   .flota__main .flota .flota__container {
     display: flex;
     width: 80%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: rgba(255, 255, 255, 0.356);
     border-radius: 10px;
     padding: 2rem 0;
     gap: 2rem; }
@@ -165,7 +174,7 @@
     width: 100%; } }
 
 body {
-  background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
+  background-image: url(https://www.necochea.gov.ar/wp-content/uploads/2017/09/FOTO-clima-7.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -205,7 +214,8 @@ body {
       text-align: center;
       background-color: none;
       margin-top: 15%;
-      margin-bottom: 5%; }
+      margin-bottom: 5%;
+      font-family: Georgia, "Times New Roman", Times, serif; }
     body .main .contenido .conjunto__enlace .contenido__boton_div {
       height: 50px;
       padding-top: 15px;
@@ -228,7 +238,7 @@ body {
         margin: auto; }
   body .main .contenido .foto-forum {
     width: 100%;
-    margin-bottom: 15%; }
+    margin-bottom: 10%; }
     body .main .contenido .foto-forum .foto_despegue {
       width: 50%;
       margin-left: 25%;

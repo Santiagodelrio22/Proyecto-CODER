@@ -12,6 +12,7 @@
             text-align: center;
             color: $colorText;
             margin-top: 15%;
+            font-family: $font-title;
 
         }
 
@@ -21,6 +22,7 @@
 
         &__form {
             @include form;
+            
         }
 
 
