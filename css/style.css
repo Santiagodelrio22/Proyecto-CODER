@@ -14,7 +14,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      height: 100vh;
+      height: 80vh;
       align-items: center;
       font-family: Georgia, "Times New Roman", Times, serif; }
     .main-viaje .viaje__h1 {
@@ -53,6 +53,8 @@
 @media (max-width: 740px) {
   .main-viaje .viaje .contenedor__destinos .contenedor__cabecera img {
     width: 250px; }
+  .main-viaje .viaje__titulo {
+    height: 63vh; }
   .main-viaje .viaje__descuento img {
     width: 250px; }
   .main-viaje .viaje__foto {
@@ -100,9 +102,7 @@
         margin-top: 20%;
         margin-bottom: 10%; }
       .nosotros__info .nosotros .nosotros__div .nosotros__foto {
-        width: 250px !important; }
-    .nosotros__info .nosotros__texto {
-      font-size: x-small; } }
+        width: 250px !important; } }
 
 * {
   margin: 0;
@@ -270,8 +270,6 @@ body {
       width: 500px;
       height: 400px;
       padding: 2rem 0; }
-    .main .contenido .container_de_fotos .fotos_inicio img {
-      width: 100%; }
 
 .footer {
   background-color: white;
@@ -315,6 +313,18 @@ body {
     width: 80%; } }
 
 @media (max-width: 815px) {
+  body .main .contenido .container_de_fotos .fotos_inicio #forum {
+    width: 100%;
+    height: 100%; }
+  body .main .contenido .container_de_fotos .fotos_inicio #skyteam {
+    width: 100%;
+    height: 100%; }
+  body .main .contenido .container_de_fotos .fotos_inicio #asistente {
+    width: 100%;
+    height: 100%; }
+  body .main .contenido .container_de_fotos .fotos_inicio #business {
+    width: 100%;
+    height: 100%; }
   body .footer {
     grid-template-areas: "logo logo" "socialnetwork socialnetwork" "hashtag hashtag" "derechos derechos";
     text-align: center; } }

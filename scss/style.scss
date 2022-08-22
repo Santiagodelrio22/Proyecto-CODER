@@ -192,12 +192,10 @@ body {
                     width: 500px;
                     height: 400px;
                     padding: 2rem 0;
-                   
+
                 }
 
-                img {
-                    width: 100%;
-                }
+
 
 
             }
@@ -304,6 +302,41 @@ body {
 @media (max-width: 815px) {
     body {
 
+
+
+        .main {
+            .contenido {
+
+                .container_de_fotos {
+                    
+                    .fotos_inicio {
+                        #forum {
+                            width: 100%;
+                            height: 100%;
+
+                        }
+
+                        #skyteam {
+                            width: 100%;
+                            height: 100%;
+
+                        }
+
+                        #asistente {
+                            width: 100%;
+                            height: 100%;
+
+                        }
+
+                        #business {
+                            width: 100%;
+                            height: 100%;
+
+                        }
+                    }
+                }
+            }
+        }
 
         .footer {
             grid-template-areas: "logo logo"
