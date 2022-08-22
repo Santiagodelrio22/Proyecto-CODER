@@ -204,28 +204,35 @@ body {
               display: block;
               padding: 13px 26px;
               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  body .main .contenido .conjunto {
+
+.main .contenido {
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
+  .main .contenido .conjunto {
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    body .main .contenido .conjunto__titulo {
+    .main .contenido .conjunto__titulo {
       color: blue;
       text-align: center;
       background-color: none;
       margin-top: 15%;
       margin-bottom: 5%;
       font-family: Georgia, "Times New Roman", Times, serif; }
-    body .main .contenido .conjunto__enlace .contenido__boton_div {
+    .main .contenido .conjunto__enlace .contenido__boton_div {
       height: 50px;
       padding-top: 15px;
       margin-bottom: 5%;
       margin-top: 5%;
       margin: auto;
       width: 200px; }
-      body .main .contenido .conjunto__enlace .contenido__boton_div .contenido__boton:hover {
+      .main .contenido .conjunto__enlace .contenido__boton_div .contenido__boton:hover {
         background-color: #03036e; }
-      body .main .contenido .conjunto__enlace .contenido__boton_div .contenido__boton {
+      .main .contenido .conjunto__enlace .contenido__boton_div .contenido__boton {
         color: white;
         text-align: center;
         background-color: blue;
@@ -236,48 +243,70 @@ body {
         margin-bottom: 5%;
         margin-top: 5%;
         margin: auto; }
-  body .main .contenido .foto-forum {
-    width: 100%;
-    margin-bottom: 10%; }
-    body .main .contenido .foto-forum .foto_despegue {
-      width: 50%;
-      margin-left: 25%;
-      display: flex;
-      justify-content: center; }
-  body .footer {
-    background-color: white;
-    display: grid;
-    grid-template-areas: "logo hashtag" "socialnetwork hashtag" "derechos derechos"; }
-    body .footer__logo {
-      grid-area: logo;
-      text-align: center;
-      margin-top: 5%; }
-      body .footer__logo img {
-        width: 220px; }
-    body .footer__socialnetwork {
-      grid-area: socialnetwork;
-      display: flex;
-      justify-content: center; }
-      body .footer__socialnetwork a {
-        margin: 2%; }
-        body .footer__socialnetwork a i {
-          font-size: 2rem;
-          color: blue; }
-    body .footer__hashtag {
-      grid-area: hashtag;
-      margin-top: 2%; }
-      body .footer__hashtag h2 {
-        font-weight: bold;
-        padding-left: 20px;
+  .main .contenido .container_de_fotos {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 10px;
+    padding: 2rem 0;
+    margin-bottom: 5%;
+    gap: 4rem; }
+    .main .contenido .container_de_fotos .fotos_inicio #forum {
+      width: 500px;
+      height: 400px;
+      padding: 2rem 0; }
+    .main .contenido .container_de_fotos .fotos_inicio #skyteam {
+      width: 500px;
+      height: 400px;
+      padding: 2rem 0; }
+    .main .contenido .container_de_fotos .fotos_inicio #asistente {
+      width: 500px;
+      height: 400px;
+      padding: 2rem 0; }
+    .main .contenido .container_de_fotos .fotos_inicio #business {
+      width: 500px;
+      height: 400px;
+      padding: 2rem 0; }
+    .main .contenido .container_de_fotos .fotos_inicio img {
+      width: 100%; }
+
+.footer {
+  background-color: white;
+  display: grid;
+  grid-template-areas: "logo hashtag" "socialnetwork hashtag" "derechos derechos"; }
+  .footer__logo {
+    grid-area: logo;
+    text-align: center;
+    margin-top: 5%; }
+    .footer__logo img {
+      width: 220px; }
+  .footer__socialnetwork {
+    grid-area: socialnetwork;
+    display: flex;
+    justify-content: center; }
+    .footer__socialnetwork a {
+      margin: 2%; }
+      .footer__socialnetwork a i {
+        font-size: 2rem;
         color: blue; }
-      body .footer__hashtag p {
-        padding-left: 20px;
-        color: blue; }
-    body .footer__derechos {
-      grid-area: derechos;
-      margin-left: 2rem; }
-      body .footer__derechos p {
-        color: blue; }
+  .footer__hashtag {
+    grid-area: hashtag;
+    margin-top: 2%; }
+    .footer__hashtag h2 {
+      font-weight: bold;
+      padding-left: 20px;
+      color: blue; }
+    .footer__hashtag p {
+      padding-left: 20px;
+      color: blue; }
+  .footer__derechos {
+    grid-area: derechos;
+    margin-left: 2rem; }
+    .footer__derechos p {
+      color: blue; }
 
 @media (max-width: 576px) {
   .header__navbar img {

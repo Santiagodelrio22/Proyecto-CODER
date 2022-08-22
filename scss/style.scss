@@ -12,268 +12,310 @@
 
 
 
-    body {
-        background-image:url(https://www.necochea.gov.ar/wp-content/uploads/2017/09/FOTO-clima-7.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #3434a7;
+body {
+    background-image: url(https://www.necochea.gov.ar/wp-content/uploads/2017/09/FOTO-clima-7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3434a7;
 
-        .header {
-            background-color: white;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-
-            .navbar {
-                height: 6rem;
-
-                &__navbar {
-
-                    img {
-                        width: 220px;
-                        position: absolute;
-
-                    }
-
-                   
-
-
-
-
-
-
-                }
-
-                .offcanvas {
-
-                    &-body {
-                        background-color: black;
-
-                        ul {
-
-
-                            list-style-type: none;
-                            text-align: start;
-
-                            li {
-                                display: inline-block;
-
-
-
-                                a {
-                                    color: white;
-                                    font-weight: bold;
-                                    text-decoration: none;
-                                    display: block;
-                                    padding: 13px 26px;
-                                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                                }
-
-                            }
-
-                        }
-
-                    }
-
-
-                }
-
-
-            }
-        }
-
-        .main {
-       
-            .contenido {
-
-                .conjunto {
-                    height: 60vh;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-
-                    &__titulo {
-                        color: $colorText;
-                        text-align: center;
-                        background-color: none;
-                        margin-top: 15%;
-                        margin-bottom: 5%;
-                        font-family:$font-title;
-                    }
-
-
-                    &__enlace {
-
-                        .contenido__boton_div {
-                            height: 50px;
-                            padding-top: 15px;
-                            margin-bottom: 5%;
-                            margin-top: 5%;
-                            margin: auto;
-                            width: 200px;
-
-
-                            .contenido__boton:hover {
-                                background-color: #03036e;
-                            }
-
-                            .contenido__boton {
-                                color: white;
-                                text-align: center;
-                                background-color: blue;
-                                border: 1px solid blue;
-                                width: 200px;
-                                height: 50px;
-                                padding-top: 15px;
-                                margin-bottom: 5%;
-                                margin-top: 5%;
-                                margin: auto;
-                            }
-
-
-                        }
-
-
-
-
-                    }
-
-
-
-                }
-
-                .foto-forum {
-                    width: 100%;
-                    margin-bottom: 10%;
-                    
-
-                    .foto_despegue {
-                        width: 50%;
-                        margin-left: 25%;
-                        display: flex;
-                        justify-content: center;
-                        
-                    }
-
-
-                }
-
-
-
-            }
-
-
-
-        }
-
-
-      .footer{
-
+    .header {
         background-color: white;
-        display: grid;
-        grid-template-areas: "logo hashtag"
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .navbar {
+            height: 6rem;
+
+            &__navbar {
+
+                img {
+                    width: 220px;
+                    position: absolute;
+
+                }
+
+
+
+
+
+
+
+
+            }
+
+            .offcanvas {
+
+                &-body {
+                    background-color: black;
+
+                    ul {
+
+
+                        list-style-type: none;
+                        text-align: start;
+
+                        li {
+                            display: inline-block;
+
+
+
+                            a {
+                                color: white;
+                                font-weight: bold;
+                                text-decoration: none;
+                                display: block;
+                                padding: 13px 26px;
+                                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+
+            }
+
+
+        }
+    }
+}
+
+.main {
+
+    .contenido {
+
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+        .conjunto {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &__titulo {
+                color: $colorText;
+                text-align: center;
+                background-color: none;
+                margin-top: 15%;
+                margin-bottom: 5%;
+                font-family: $font-title;
+            }
+
+
+            &__enlace {
+
+                .contenido__boton_div {
+                    height: 50px;
+                    padding-top: 15px;
+                    margin-bottom: 5%;
+                    margin-top: 5%;
+                    margin: auto;
+                    width: 200px;
+
+
+                    .contenido__boton:hover {
+                        background-color: #03036e;
+                    }
+
+                    .contenido__boton {
+                        color: white;
+                        text-align: center;
+                        background-color: blue;
+                        border: 1px solid blue;
+                        width: 200px;
+                        height: 50px;
+                        padding-top: 15px;
+                        margin-bottom: 5%;
+                        margin-top: 5%;
+                        margin: auto;
+                    }
+
+
+                }
+
+
+
+
+            }
+
+
+
+        }
+
+
+        .container_de_fotos {
+            display: flex;
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: $background-color-cuadrados;
+            border-radius: 10px;
+            padding: 2rem 0;
+            margin-bottom: 5%;
+            gap: 4rem;
+
+
+            .fotos_inicio {
+
+                #forum {
+                    width: 500px;
+                    height: 400px;
+                    padding: 2rem 0;
+
+                }
+
+                #skyteam {
+                    width: 500px;
+                    height: 400px;
+                    padding: 2rem 0;
+
+                }
+
+                #asistente {
+                    width: 500px;
+                    height: 400px;
+                    padding: 2rem 0;
+
+                }
+
+                #business {
+                    width: 500px;
+                    height: 400px;
+                    padding: 2rem 0;
+                   
+                }
+
+                img {
+                    width: 100%;
+                }
+
+
+            }
+
+
+        }
+
+    }
+}
+
+.footer {
+
+    background-color: white;
+    display: grid;
+    grid-template-areas: "logo hashtag"
         "socialnetwork hashtag"
         "derechos derechos";
 
-        &__logo{
+    &__logo {
 
-            grid-area: logo;
-           text-align: center;
-           margin-top: 5%;
-          img{
+        grid-area: logo;
+        text-align: center;
+        margin-top: 5%;
+
+        img {
             width: 220px;
-          } 
         }
+    }
 
-        &__socialnetwork{
-            grid-area: socialnetwork;
-            display: flex;
-            justify-content: center;
-            a{
-                margin: 2%;
-                i{
-                    font-size: 2rem;
-                    color: $colorText;
-                    
+    &__socialnetwork {
+        grid-area: socialnetwork;
+        display: flex;
+        justify-content: center;
 
-                }
-            }
-        }
+        a {
+            margin: 2%;
 
-        &__hashtag{
-            grid-area: hashtag;
-            margin-top: 2%;
-
-            h2{
-                font-weight: bold;
-                padding-left: 20px;
+            i {
+                font-size: 2rem;
                 color: $colorText;
-            }
-    
-            p{
-                padding-left: 20px;
-                color: $colorText;
+
+
             }
         }
+    }
 
-    
+    &__hashtag {
+        grid-area: hashtag;
+        margin-top: 2%;
 
-        &__derechos{
-            grid-area: derechos;
-           margin-left: 2rem;
-
-           p{
+        h2 {
+            font-weight: bold;
+            padding-left: 20px;
             color: $colorText;
-            
-           }
-
-
         }
 
-       
+        p {
+            padding-left: 20px;
+            color: $colorText;
+        }
+    }
 
 
 
+    &__derechos {
+        grid-area: derechos;
+        margin-left: 2rem;
 
-      }
+        p {
+            color: $colorText;
 
+        }
 
 
     }
-   
-
-    @media (max-width: 576px) {
-        .header__navbar img {
-            width: 170px;
-        }
 
 
 
 
-        .foto_despegue {
-            width: 80%;
 
-        }
-  
+
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .header__navbar img {
+        width: 170px;
     }
 
-    @media (max-width: 815px){
-        body{
 
-        
-        .footer{
+
+
+    .foto_despegue {
+        width: 80%;
+
+    }
+
+}
+
+@media (max-width: 815px) {
+    body {
+
+
+        .footer {
             grid-template-areas: "logo logo"
-            "socialnetwork socialnetwork"
-            "hashtag hashtag"
-            "derechos derechos"
+                "socialnetwork socialnetwork"
+                "hashtag hashtag"
+                "derechos derechos"
             ;
             text-align: center;
 
-           
-            
-            
+
+
+
         }
     }
-    }
+}
