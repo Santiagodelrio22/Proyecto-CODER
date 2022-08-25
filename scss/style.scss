@@ -1,10 +1,10 @@
-@import "variables";
-@import "_operator.scss";
-@import "_viajes.scss";
-@import "_nosotros.scss";
+@import "./utilities/variables";
+@import "./utilities/operator";
+@import "./views/viajes";
+@import "./views/nosotros";
 @import "_normalize.scss";
-@import "_contacto.scss";
-@import "_flota.scss";
+@import "./views/contacto";
+@import "./views/flota";
 
 
 
