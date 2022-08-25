@@ -27,3 +27,13 @@
 <h3>Flota</h3>
 
 <p>Se podrá encontrar fotos de toda la flota aerea que posee Aerolineas Argentinas para trasladar a sus pasajeros. </p>
+
+
+<h2>Librerias y Tecnologias</h2>
+
+<ul>
+<li>Boostrap</li>
+<li>CSS3</li>
+<li>HTML5</li>
+<li>SASS</li>
+</ul>
