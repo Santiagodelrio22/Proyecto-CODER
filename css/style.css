@@ -132,7 +132,8 @@
       background-color: rgba(255, 255, 255, 0.356);
       margin-top: 4rem;
       margin-bottom: 2rem;
-      border-radius: 10px; }
+      border-radius: 10px;
+      font-family: Georgia, "Times New Roman", Times, serif; }
 
 @media (max-width: 576px) {
   .contacto-main {
